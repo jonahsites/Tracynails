@@ -15,38 +15,38 @@ export default function Services() {
               our expertise
             </motion.span>
             <h2 className="text-6xl md:text-8xl font-display leading-[0.9] text-primary lowercase line-clamp-2">
-              refined <br /> services
+              Signature <br /> Services
             </h2>
           </div>
           <p className="text-primary/50 max-w-xs text-xs md:text-sm leading-relaxed uppercase tracking-widest font-light">
-            Every set is a unique masterpiece, tailored to your aesthetic and lifestyle in the heart of NYC.
+            Professional nail care and beauty enhancements in the heart of Pembroke Pines.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-px bg-gold/10 border border-gold/10">
           <ServiceItem 
             number="01" 
-            title="minimalist sets" 
-            description="clean lines and subtle elegance for the modern professional."
-            price="from $120"
+            title="Powder Dip" 
+            description="Long-lasting, lightweight, and durable color application without UV light."
+            price="quality sets"
           />
           <ServiceItem 
             number="02" 
-            title="gold leaf art" 
-            description="premium 24k gold leaf integration with deep architectural textures."
-            price="from $180"
+            title="Gel-X & Builder" 
+            description="Premium extensions and structural reinforcement for perfect nail shape."
+            price="expert form"
           />
           <ServiceItem 
             number="03" 
-            title="sculpted forms" 
-            description="hand-sculpted 3d elements that redefine nail structure."
-            price="from $220"
+            title="Brow Sculpt" 
+            description="Precision brow shaping and tinting to frame your natural beauty."
+            price="fine lines"
           />
           <ServiceItem 
             number="04" 
-            title="nyc concierge" 
-            description="private on-location sessions in Manhattan and Brooklyn."
-            price="from $350"
+            title="Lash Artistry" 
+            description="Lifting and tinting for elegant, maintenance-free lashes."
+            price="refined look"
           />
         </div>
       </div>

@@ -23,8 +23,8 @@ export default function Hero() {
           transition={{ duration: 1, ease: "easeOut" }}
           className="text-7xl md:text-[10rem] font-display mb-12 leading-[0.8] text-primary"
         >
-          nail <br />
-          <span className="pl-12 md:pl-32 italic font-light lowercase">artist</span>
+          Tracy <br />
+          <span className="pl-12 md:pl-32 italic font-light lowercase text-gold">Nails</span>
         </motion.h1>
 
         <motion.div 
@@ -34,13 +34,13 @@ export default function Hero() {
           className="flex flex-col items-center gap-8"
         >
           <p className="max-w-md text-primary/60 text-sm md:text-base leading-relaxed font-light tracking-wide uppercase">
-            elevating the craft of nail design through minimalist elegance and distinct precision.
+            Powder Dip • Gel-X • Builder Gel • Brows • Lashes
           </p>
           
           <div className="flex items-center gap-4">
-            <span className="text-[11px] uppercase tracking-[0.2em] text-primary font-semibold">Based in New York</span>
+            <span className="text-[11px] uppercase tracking-[0.2em] text-primary font-semibold">Pembroke Pines, FL</span>
             <div className="w-1 h-1 bg-gold rounded-full"></div>
-            <span className="text-[11px] uppercase tracking-[0.2em] text-primary/50">EST 2024</span>
+            <span className="text-[11px] uppercase tracking-[0.2em] text-primary/50">Since 2024</span>
           </div>
 
           <motion.button 
@@ -55,8 +55,8 @@ export default function Hero() {
 
       {/* Decorative Elements */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10 flex gap-20 opacity-[0.03]">
-        <span className="text-[20vw] font-display italic text-primary">na</span>
-        <span className="text-[20vw] font-display translate-y-20 text-primary">nyc</span>
+        <span className="text-[20vw] font-display italic text-primary">tn</span>
+        <span className="text-[20vw] font-display translate-y-20 text-primary">fla</span>
       </div>
       
       <motion.div 
